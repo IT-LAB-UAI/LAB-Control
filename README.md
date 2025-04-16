@@ -5,9 +5,9 @@
 
 ## 📚 Table of Contents
 
-- [🧰 Configuration and Deployment](#️configuration-and-deployment)
-  - [🧪 1. Config `.env` File (Testing/Development)](#1-config-env-file-located-in-the-config-directory-for-testingdevelop)
-  - [🌍 2. Root `.env` File (Docker Compose)](#2-root-env-file-located-in-the-root-directory-of-the-project)
+- [🧰 Configuration and Deployment](#-configuration-and-deployment)
+  - [🧪 1. Config `.env` File (Testing/Development)](#-1-config-env-file-located-in-the-config-directory-for-testingdevelop)
+  - [🌍 2. Root `.env` File (Docker Compose)](#-2-root-env-file-located-in-the-root-directory-of-the-project)
 - [📦 Project Structure](#-project-structure)
 - [📁 Project Structure (Definition)](#-project-structure-definition)
 
