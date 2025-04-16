@@ -5,7 +5,7 @@
 
 ## 📚 Table of Contents
 
-- [⚙️ Configuration and Deployment](#️configuration-and-deployment)
+- [🧰 Configuration and Deployment](#️configuration-and-deployment)
   - [🧪 1. Config `.env` File (Testing/Development)](#1-config-env-file-located-in-the-config-directory-for-testingdevelop)
   - [🌍 2. Root `.env` File (Docker Compose)](#2-root-env-file-located-in-the-root-directory-of-the-project)
 - [📦 Project Structure](#-project-structure)
@@ -13,7 +13,7 @@
 
 
 
-# Configuration and Deployment
+# 🧰 Configuration and Deployment
 <p align="justify">
     The general configuration of the project is straightforward thanks to the use of <a href="https://www.docker.com/">Docker</a>. The <code>Dockerfile</code> files for both the frontend and backend configure the environments of each container, while Docker Compose uses these files to handle the application deployment.
 </p>
@@ -59,7 +59,7 @@ The <code>.env</code> file in the config directory will contain backend-specific
 
 ```
 
-#### 1. **Config `.env` file** (located in the `config` directory for Testing/Develop) 
+#### 🧪 1. **Config `.env` file** (located in the `config` directory for Testing/Develop) 
 This file contains:
 - The current Enviroment name  
 - The full database connection URL.
@@ -84,7 +84,7 @@ Note that these <code>.env</code> files are loaded with the init script located 
 
 You should have two databases, one for development and one for testing. This separation is crucial to ensure that tests run in isolation and do not corrupt the data in the development database if something fails.
 
-### 2. **Root `.env` file** (located in the root directory of the project)
+### 🌍 2. **Root `.env` file** (located in the root directory of the project)
 
 This file contains individual database environment variables used by Docker Compose to set up the database container.
 ```dotenv
@@ -120,7 +120,7 @@ docker compose up
     By executing this command within the directory containing the <code>compose.yaml</code> file, the full application should be deployed. To avoid issues with Docker, we recommend following the <a href="https://docs.docker.com/engine/install/">installation guide</a> available in the official documentation.
 </p>
 
-# Project Structure
+# 📦 Project Structure
 ```
 .
 ├── client
@@ -186,7 +186,7 @@ docker compose up
 
 
 ```
-# Project Structure (Definition)
+# 📁 Project Structure (Definition)
 ```
 .
 ├── client                    # Frontend directory
