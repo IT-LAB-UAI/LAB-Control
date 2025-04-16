@@ -3,6 +3,16 @@
     Official GitHub repository for the access control application implemented in the IT laboratory at Adolfo Ibáñez University. The development of this project uses <a href="https://www.typescriptlang.org/">TypeScript</a> as the main programming language. The frontend is implemented with <a href="https://react.dev/">React</a>, while the backend of the application is built using <a href="https://expressjs.com/">Express.js</a>, all running in the <a href="https://nodejs.org/">Node.js</a> environment. Additionally, the database used for the application is built with <a href="https://www.postgresql.org/">PostgreSQL</a>.
 </p>
 
+## 📚 Table of Contents
+
+- [⚙️ Configuration and Deployment](#️configuration-and-deployment)
+  - [🧪 1. Config `.env` File (Testing/Development)](#1-config-env-file-located-in-the-config-directory-for-testingdevelop)
+  - [🌍 2. Root `.env` File (Docker Compose)](#2-root-env-file-located-in-the-root-directory-of-the-project)
+- [📦 Project Structure](#-project-structure)
+- [📁 Project Structure (Definition)](#-project-structure-definition)
+
+
+
 # Configuration and Deployment
 <p align="justify">
     The general configuration of the project is straightforward thanks to the use of <a href="https://www.docker.com/">Docker</a>. The <code>Dockerfile</code> files for both the frontend and backend configure the environments of each container, while Docker Compose uses these files to handle the application deployment.
